@@ -20256,6 +20256,18 @@
 		(uuid "d422e810-2bb4-48ae-b70d-b04dcf4dd8ff")
 	)
 	(rectangle
+		(start 135.89 133.35)
+		(end 212.09 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d6a7f484-2f6a-4739-9679-50e6768cd993")
+	)
+	(rectangle
 		(start 15.24 133.35)
 		(end 132.08 171.45)
 		(stroke
@@ -20279,15 +20291,11 @@
 		)
 		(uuid "df2f6bc2-72a3-4018-811a-b810b505f6f9")
 	)
-	(text "is this what you mean by 2x1 thermistor connector? What do i connect to it?\n"
-		(exclude_from_sim no)
-		(at 172.72 152.908 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d794f5af-536d-4495-b078-21c683224961")
+	(junction
+		(at 195.58 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed231368-49c6-4fd0-a698-7a39f2ad56ba")
 	)
 	(no_connect
 		(at 100.33 59.69)
@@ -20455,7 +20463,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 144.78) (xy 146.05 143.51)
+			(xy 143.51 154.94) (xy 143.51 153.67)
 		)
 		(stroke
 			(width 0)
@@ -20505,6 +20513,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 149.86) (xy 143.51 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ef652f-15d7-4ef0-a872-ba0c4e0948cb")
+	)
+	(wire
+		(pts
 			(xy 91.44 140.97) (xy 91.44 142.24)
 		)
 		(stroke
@@ -20545,6 +20563,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 151.13) (xy 147.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c262cc-bca2-4083-87d3-05e4cd6b293b")
+	)
+	(wire
+		(pts
 			(xy 96.52 22.86) (xy 96.52 24.13)
 		)
 		(stroke
@@ -20575,6 +20603,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 147.32) (xy 200.66 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0bc34d-38f8-486d-be73-c5a845ced5d0")
+	)
+	(wire
+		(pts
 			(xy 22.86 160.02) (xy 22.86 161.29)
 		)
 		(stroke
@@ -20592,6 +20630,16 @@
 			(type default)
 		)
 		(uuid "33827195-1240-4d85-a5e0-7f2898955443")
+	)
+	(wire
+		(pts
+			(xy 195.58 146.05) (xy 195.58 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429bc0be-fd6a-4a08-9186-a4da3ee169b5")
 	)
 	(wire
 		(pts
@@ -20782,6 +20830,16 @@
 			(type default)
 		)
 		(uuid "6916adcd-9895-4f8d-80d9-2d5d50d509c1")
+	)
+	(wire
+		(pts
+			(xy 195.58 156.21) (xy 195.58 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a5bf748-96e7-4857-8dd5-2efd4ce114d2")
 	)
 	(wire
 		(pts
@@ -21035,6 +21093,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 139.7) (xy 143.51 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1882c5a-58fb-4cf0-812f-8e7150eb79ea")
+	)
+	(wire
+		(pts
 			(xy 139.7 24.13) (xy 144.78 24.13)
 		)
 		(stroke
@@ -21092,6 +21160,16 @@
 			(type default)
 		)
 		(uuid "c196bd1b-7a09-4b0c-9a2d-b3662bd62e92")
+	)
+	(wire
+		(pts
+			(xy 195.58 137.16) (xy 195.58 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c671c08d-80b1-4c75-9dfe-8e06b6f92f89")
 	)
 	(wire
 		(pts
@@ -21172,6 +21250,26 @@
 			(type default)
 		)
 		(uuid "d1341915-28a5-4b11-8025-fbbebe8eb63b")
+	)
+	(wire
+		(pts
+			(xy 195.58 147.32) (xy 195.58 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d134ee82-9663-47e5-bc38-849fccb148c8")
+	)
+	(wire
+		(pts
+			(xy 191.77 137.16) (xy 195.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17e8755-9b07-4670-bfb2-a1c80c3b98be")
 	)
 	(wire
 		(pts
@@ -21305,7 +21403,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 143.51) (xy 149.86 143.51)
+			(xy 143.51 153.67) (xy 147.32 153.67)
 		)
 		(stroke
 			(width 0)
@@ -22547,6 +22645,16 @@
 		)
 		(uuid "071cdb42-9ef9-46da-a164-ebb611b052b7")
 	)
+	(label "12V_Protected"
+		(at 191.77 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08b1162b-1b09-478b-bbbf-5243dea97f1d")
+	)
 	(label "FAN4_TACH"
 		(at 203.2 116.84 180)
 		(effects
@@ -22617,6 +22725,16 @@
 		)
 		(uuid "2a4c7418-1968-4c73-85bb-2fec8a8b7d60")
 	)
+	(label "3.3V"
+		(at 143.51 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31664be3-876a-4edd-8b19-ba0fcc34abcd")
+	)
 	(label "FAN2_PWM"
 		(at 168.91 116.84 0)
 		(effects
@@ -22636,6 +22754,16 @@
 			(justify left bottom)
 		)
 		(uuid "34c03407-a1cd-49d5-94c2-8d0f062e604a")
+	)
+	(label "3.3V"
+		(at 96.52 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a1a2c32-226b-4283-8cdc-b94b8b2570f7")
 	)
 	(label "12V_Protected"
 		(at 58.42 102.87 0)
@@ -22736,6 +22864,16 @@
 			(justify right bottom)
 		)
 		(uuid "5eb30a4d-f0fb-40ed-bbc2-8b36134f4c36")
+	)
+	(label "3.3V"
+		(at 200.66 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fa6bf07-415c-4043-b381-7d85eba1c3e3")
 	)
 	(label "CAR_CAN_RX"
 		(at 200.66 24.13 0)
@@ -23805,6 +23943,99 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 143.51 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23205cf7-a160-45f6-abed-d886eb89b9d3")
+		(property "Reference" "R45"
+			(at 146.05 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 146.05 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 144.526 146.304 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 143.51 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI"
+			(at 143.51 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a53d8e0d-69ca-4c11-b0cd-c0023bacc7ea")
+		)
+		(pin "2"
+			(uuid "6b3f0657-7c45-4a09-973c-f97b41693459")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 78.74 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -24409,7 +24640,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 154.94 140.97 0)
+		(at 152.4 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24420,7 +24651,7 @@
 		(fields_autoplaced yes)
 		(uuid "469b6d24-c5ff-47d6-aa7d-e1b0207c02e8")
 		(property "Reference" "J10"
-			(at 157.48 140.9699 0)
+			(at 154.94 151.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24431,7 +24662,7 @@
 			)
 		)
 		(property "Value" "Thermistor_Connecter"
-			(at 157.48 143.5099 0)
+			(at 154.94 153.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24442,7 +24673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 140.97 0)
+			(at 152.4 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24453,7 +24684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 140.97 0)
+			(at 152.4 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24464,7 +24695,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 140.97 0)
+			(at 152.4 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24647,6 +24878,83 @@
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "506b2e28-42bb-47ac-b8bf-2ceec573b8b6")
+		(property "Reference" "#PWR057"
+			(at 195.58 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c6c12d4-6d6e-4031-b102-a98036a7936e")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -25591,6 +25899,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 195.58 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d511929-46cf-4835-972a-2279eea4e3e9")
+		(property "Reference" "R47"
+			(at 198.1209 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.6"
+			(at 198.1209 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.596 152.654 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI"
+			(at 195.58 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6401b1c3-9093-4dd6-8249-2022ba259daa")
+		)
+		(pin "2"
+			(uuid "69c889b9-978b-452b-a840-d7dd2cb2fc2f")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 60.96 146.05 90)
 		(unit 1)
@@ -25685,7 +26086,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 144.78 0)
+		(at 143.51 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25695,7 +26096,7 @@
 		(dnp no)
 		(uuid "93d78568-a4e8-4448-9af5-79b460bd86d4")
 		(property "Reference" "#PWR056"
-			(at 146.05 151.13 0)
+			(at 143.51 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25706,7 +26107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 148.59 0)
+			(at 143.51 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25716,7 +26117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 144.78 0)
+			(at 143.51 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25727,7 +26128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 144.78 0)
+			(at 143.51 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25738,7 +26139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 144.78 0)
+			(at 143.51 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27216,84 +27617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 96.52 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5c44b84-51d7-4b18-adac-6d071adc220a")
-		(property "Reference" "#PWR07"
-			(at 96.52 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 96.52 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 96.52 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3af11f8c-1ba1-4725-935f-909d07f730fd")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
 		(at 208.28 114.3 0)
 		(unit 1)
@@ -27451,6 +27774,99 @@
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 195.58 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eec4cf68-bb3a-4ab7-b676-df5318517059")
+		(property "Reference" "R46"
+			(at 198.12 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 198.12 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.596 142.494 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 195.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI"
+			(at 195.58 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71f8db50-a738-47e3-bc50-4070d2442246")
+		)
+		(pin "2"
+			(uuid "ae5253c8-c775-4b54-8441-26dff79b3401")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
+					(reference "R46")
 					(unit 1)
 				)
 			)
