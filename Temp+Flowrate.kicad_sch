@@ -5216,13 +5216,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "40798be9-2630-4979-863e-fd8747817dbc")
+			(uuid "40798be9-2630-4979-863e-fd8747817dbd")
 		)
 		(pin "3"
-			(uuid "d769e95b-2395-48f1-8171-439662cb3731")
+			(uuid "d769e95b-2395-48f1-8171-439662cb3732")
 		)
 		(pin "2"
-			(uuid "9d40ae1f-78ef-4acd-8f51-bf8fe097abb3")
+			(uuid "9d40ae1f-78ef-4acd-8f51-bf8fe097abb4")
 		)
 		(pin "7"
 			(uuid "b6109a20-47d2-4e5b-957c-32410cb4b10d")
@@ -5234,10 +5234,10 @@
 			(uuid "550fb4d7-c7b7-4e99-9084-052c7a8b2f05")
 		)
 		(pin "8"
-			(uuid "a322204c-ca96-4827-a40b-13ff4463e221")
+			(uuid "a322204c-ca96-4827-a40b-13ff4463e222")
 		)
 		(pin "4"
-			(uuid "b414b78a-ec9a-4476-8cbc-72f95503c796")
+			(uuid "b414b78a-ec9a-4476-8cbc-72f95503c797")
 		)
 		(instances
 			(project "PS-MPPTFanBoard"
@@ -6122,19 +6122,19 @@
 			(uuid "20450cbe-6178-4e7e-b594-9b61ababba0e")
 		)
 		(pin "7"
-			(uuid "c0f5172b-51cc-438b-bab7-ad784547f819")
+			(uuid "c0f5172b-51cc-438b-bab7-ad784547f81a")
 		)
 		(pin "6"
-			(uuid "0961e6b4-3da9-4d38-8f1d-9e76134c708e")
+			(uuid "0961e6b4-3da9-4d38-8f1d-9e76134c708f")
 		)
 		(pin "5"
-			(uuid "8da4e795-ed55-4d3c-85c3-ca9b5799e1be")
+			(uuid "8da4e795-ed55-4d3c-85c3-ca9b5799e1bf")
 		)
 		(pin "8"
-			(uuid "a322204c-ca96-4827-a40b-13ff4463e21d")
+			(uuid "a322204c-ca96-4827-a40b-13ff4463e21e")
 		)
 		(pin "4"
-			(uuid "b414b78a-ec9a-4476-8cbc-72f95503c792")
+			(uuid "b414b78a-ec9a-4476-8cbc-72f95503c793")
 		)
 		(instances
 			(project "PS-MPPTFanBoard"
