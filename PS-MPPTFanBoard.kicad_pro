@@ -429,7 +429,7 @@
         "uuid": "645a5315-cb23-4e9f-a6f4-b2dce0283546"
       }
     ],
-    "used_designators": "U1-7,IC1-4,J1-7,J9-10,#FLG1-2,#FLG4-5,R1-74,#PWR1-119,D1-25,C1-32,TP1-17,H1-12,LOGO1-6,Q1-8,L1,JP1-2,TH1",
+    "used_designators": "U1-7,IC1-4,J1-7,J9-11,#FLG1-5,R1-74,#PWR1-119,D1-25,C1-32,C35-41,TP1-17,H1-12,LOGO1-6,Q1-8,L1,JP1-2,TH1",
     "variants": []
   },
   "sheets": [
@@ -456,6 +456,22 @@
     [
       "49f37e74-22a3-4a0f-a7e0-1f69e80177bf",
       "MPPT_CAN_Transceiver"
+    ],
+    [
+      "7b3cf9f5-b43c-4ae6-a946-20d19d9d234c",
+      "LDO"
+    ],
+    [
+      "05c6f20c-2299-4eff-907c-8e6180fe601d",
+      "12VBuck"
+    ],
+    [
+      "ad0fea35-77f1-455f-8e53-9f85efc0802b",
+      "USB-C_Connector"
+    ],
+    [
+      "22b53fee-b38d-4086-a3b2-6169c2d69497",
+      "Power_Mux"
     ]
   ],
   "text_variables": {},
