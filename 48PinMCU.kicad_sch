@@ -54011,16 +54011,6 @@
 		)
 		(uuid "3bb00ad9-4879-4ca0-a0a8-13d2d3e2645d")
 	)
-	(label "DEBUG3"
-		(at 7.8802 2.0957 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f4d202c-01e6-4d76-be30-a176b268ac31")
-	)
 	(label "SWCLK"
 		(at 130.81 72.39 0)
 		(effects
@@ -54080,16 +54070,6 @@
 			(justify left bottom)
 		)
 		(uuid "b3b888a4-9b5a-4c2f-8d4a-dc48a49c138a")
-	)
-	(label "DEBUG1"
-		(at 54.8702 2.0957 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7767c3e-1894-43c0-829d-d94ed063cc37")
 	)
 	(label "SWCLK"
 		(at 222.25 143.51 180)

@@ -1615,12 +1615,20 @@
 		(uuid "90e8ec2f-5095-48d1-819b-b485cf0227c1")
 	)
 	(no_connect
+		(at 52.07 38.1)
+		(uuid "19ffa1c0-7fe6-43bd-8342-d95492bb7546")
+	)
+	(no_connect
 		(at 50.8 60.96)
 		(uuid "54d253f2-7913-42ba-ad0d-7fd8d87d8c1a")
 	)
 	(no_connect
 		(at 50.8 58.42)
 		(uuid "b55e0efa-0cd1-43ab-ab03-928614063bd2")
+	)
+	(no_connect
+		(at 52.07 35.56)
+		(uuid "c5d0f5d5-7e6e-407d-b2cb-a03e5fff5028")
 	)
 	(wire
 		(pts
@@ -1895,17 +1903,6 @@
 		)
 		(uuid "23158f13-92ad-4941-93b0-f1b8cff4aef4")
 	)
-	(hierarchical_label "CC2"
-		(shape bidirectional)
-		(at 52.07 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b7acb43-51eb-4fa4-9f12-1927ee42daf1")
-	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 55.88 44.45 0)
@@ -1916,17 +1913,6 @@
 			(justify left)
 		)
 		(uuid "68179028-fd32-48bf-b395-75eff4b0affa")
-	)
-	(hierarchical_label "CC1"
-		(shape bidirectional)
-		(at 52.07 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98c5750f-70e6-4fa2-8eb9-777cf9081d1e")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2130,7 +2116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_ICs:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "LHRS_Connectors:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 39.37 45.72 0)
 			(hide yes)
 			(show_name no)

@@ -163,7 +163,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -174,7 +174,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 1.27 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -183,7 +183,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Counter_Clockwise"
+			(property "Value" "Conn_02x03_Counter_Clockwise"
 				(at 1.27 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -215,7 +215,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -248,9 +248,9 @@
 					)
 				)
 			)
-			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+			(symbol "Conn_02x03_Counter_Clockwise_1_1"
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 3.81)
 					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
@@ -258,6 +258,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -274,6 +285,17 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -305,7 +327,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -323,7 +345,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -341,7 +363,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -359,7 +381,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -369,6 +391,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -20360,16 +20418,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 109.22) (xy 55.88 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01487509-2b35-498f-b95d-773295f275be")
-	)
-	(wire
-		(pts
 			(xy 214.63 29.21) (xy 220.98 29.21)
 		)
 		(stroke
@@ -20430,7 +20478,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 132.08) (xy 140.97 132.08)
+			(xy 148.59 132.08) (xy 135.89 132.08)
 		)
 		(stroke
 			(width 0)
@@ -20710,7 +20758,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 93.98) (xy 26.67 93.98)
+			(xy 30.48 102.87) (xy 26.67 102.87)
 		)
 		(stroke
 			(width 0)
@@ -20810,17 +20858,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 109.22) (xy 26.67 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57142159-135d-4e3d-b939-5f6d3a323ccb")
-	)
-	(wire
-		(pts
-			(xy 191.77 118.11) (xy 191.77 120.65)
+			(xy 195.58 113.03) (xy 195.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -20847,16 +20885,6 @@
 			(type default)
 		)
 		(uuid "5fdcbbe9-c04b-4892-aaa6-a779ba3a83b6")
-	)
-	(wire
-		(pts
-			(xy 30.48 109.22) (xy 26.67 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60840927-c73e-4d6e-83cc-0ec3ca4a64a8")
 	)
 	(wire
 		(pts
@@ -20920,16 +20948,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 139.7) (xy 55.88 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d4a8c87-2231-4912-9506-c820e327b2a3")
-	)
-	(wire
-		(pts
 			(xy 73.66 95.25) (xy 76.2 95.25)
 		)
 		(stroke
@@ -20967,6 +20985,16 @@
 			(type default)
 		)
 		(uuid "7985f125-31dc-4180-bfbd-fc16c96f53e7")
+	)
+	(wire
+		(pts
+			(xy 187.96 124.46) (xy 187.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f0271e-c6a7-4bd2-a362-686baf0a4b3f")
 	)
 	(wire
 		(pts
@@ -21100,7 +21128,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 132.08) (xy 179.07 134.62)
+			(xy 184.15 132.08) (xy 184.15 134.62)
 		)
 		(stroke
 			(width 0)
@@ -21110,7 +21138,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 93.98) (xy 55.88 93.98)
+			(xy 43.18 102.87) (xy 55.88 102.87)
 		)
 		(stroke
 			(width 0)
@@ -21140,16 +21168,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 139.7) (xy 55.88 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cbc98b8-4ed5-4279-8c33-945b43d5be14")
-	)
-	(wire
-		(pts
 			(xy 73.66 110.49) (xy 76.2 110.49)
 		)
 		(stroke
@@ -21157,6 +21175,16 @@
 			(type default)
 		)
 		(uuid "9d06174a-d9a0-4a50-b884-288bb76b1a9d")
+	)
+	(wire
+		(pts
+			(xy 187.96 110.49) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a160c2f6-c8be-4df2-81cb-1af41b355d44")
 	)
 	(wire
 		(pts
@@ -21260,16 +21288,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 109.22) (xy 55.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ad9af3-8d2d-469f-9ef1-d856d58dd3c0")
-	)
-	(wire
-		(pts
 			(xy 92.71 184.15) (xy 92.71 185.42)
 		)
 		(stroke
@@ -21280,7 +21298,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 128.27) (xy 191.77 129.54)
+			(xy 195.58 124.46) (xy 195.58 125.73)
 		)
 		(stroke
 			(width 0)
@@ -21290,7 +21308,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 132.08) (xy 179.07 132.08)
+			(xy 171.45 132.08) (xy 184.15 132.08)
 		)
 		(stroke
 			(width 0)
@@ -21340,16 +21358,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 139.7) (xy 26.67 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1338c88-6592-4d4d-9167-bf6252af33d2")
-	)
-	(wire
-		(pts
 			(xy 40.64 173.99) (xy 40.64 176.53)
 		)
 		(stroke
@@ -21370,7 +21378,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 93.98) (xy 26.67 92.71)
+			(xy 26.67 102.87) (xy 26.67 101.6)
 		)
 		(stroke
 			(width 0)
@@ -21397,16 +21405,6 @@
 			(type default)
 		)
 		(uuid "df5e2307-c651-4cf0-828c-75110c46f07d")
-	)
-	(wire
-		(pts
-			(xy 26.67 139.7) (xy 26.67 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfed146d-0fb0-4aa6-b6f6-b9413977d7ac")
 	)
 	(wire
 		(pts
@@ -21450,7 +21448,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 55.88 95.25)
+			(xy 55.88 102.87) (xy 55.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -21530,7 +21528,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 132.08) (xy 140.97 134.62)
+			(xy 135.89 132.08) (xy 135.89 134.62)
 		)
 		(stroke
 			(width 0)
@@ -22663,26 +22661,6 @@
 			"4CAUeAAAAMBBKPAAAACAg1DgAQAAAAf5Lwkxvdbz0EDjAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "Shield"
-		(at 236.22 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "018b96df-a024-4e07-b4aa-e9d7aba469b2")
-	)
-	(label "Shield"
-		(at 213.36 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "046238ff-7bba-40af-846a-4605777cb10a")
-	)
 	(label "CAR_CAN_H"
 		(at 236.22 124.46 0)
 		(effects
@@ -22694,7 +22672,7 @@
 		(uuid "071cdb42-9ef9-46da-a164-ebb611b052b7")
 	)
 	(label "FAN4_TACH"
-		(at 30.48 142.24 180)
+		(at 30.48 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22734,7 +22712,7 @@
 		(uuid "14fd11cf-9ab9-4b8f-8717-62ee412ae8fe")
 	)
 	(label "FAN4_PWM"
-		(at 43.18 142.24 0)
+		(at 43.18 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22774,7 +22752,7 @@
 		(uuid "2a4c7418-1968-4c73-85bb-2fec8a8b7d60")
 	)
 	(label "FAN2_PWM"
-		(at 43.18 111.76 0)
+		(at 43.18 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22783,8 +22761,8 @@
 		)
 		(uuid "34bdbf99-896b-4b66-8247-f92e211eb37c")
 	)
-	(label "shield"
-		(at 191.77 118.11 0)
+	(label "Car_Shield"
+		(at 195.58 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22803,6 +22781,16 @@
 		)
 		(uuid "37441952-3ba4-4bab-bdd3-31c0d8be005d")
 	)
+	(label "Car_Shield"
+		(at 236.22 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3af1f3eb-8e27-4452-a5c0-9cfe2dca8f03")
+	)
 	(label "FAN_SDA"
 		(at 73.66 95.25 180)
 		(effects
@@ -22812,16 +22800,6 @@
 			(justify right bottom)
 		)
 		(uuid "401a81a9-e1c2-44f9-b26b-229162488841")
-	)
-	(label "Shield"
-		(at 171.45 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43762c99-48f5-4080-9f44-7bbf1f79a208")
 	)
 	(label "DEBUG1"
 		(at 146.05 34.29 180)
@@ -22953,6 +22931,16 @@
 		)
 		(uuid "68655748-a312-45d8-88c3-242de9226439")
 	)
+	(label "Car_Shield"
+		(at 213.36 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73a491ec-cf3e-45a4-b76f-bd37654271a5")
+	)
 	(label "MPPT_CAN_RX"
 		(at 176.53 93.98 0)
 		(effects
@@ -23014,7 +23002,7 @@
 		(uuid "862f72af-82ca-470b-a09e-79313c8ae7f6")
 	)
 	(label "FAN1_PWM"
-		(at 43.18 96.52 0)
+		(at 43.18 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23073,7 +23061,7 @@
 		)
 		(uuid "a1af041c-e300-4eca-8182-cd1977035b12")
 	)
-	(label "Shield"
+	(label "MPPT_Shield"
 		(at 148.59 135.89 180)
 		(effects
 			(font
@@ -23112,6 +23100,26 @@
 			(justify left bottom)
 		)
 		(uuid "abdd1c36-e7e7-431d-8bd3-b77e2a67e674")
+	)
+	(label "MPPT_Shield"
+		(at 171.45 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0b9f6b5-6e6b-4ba4-82c9-a7d4211a3b50")
+	)
+	(label "MPPT_Shield"
+		(at 187.96 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7262637-aee2-47bd-b5b7-888b853c6df7")
 	)
 	(label "FAN2_TACH"
 		(at 73.66 105.41 180)
@@ -23194,7 +23202,7 @@
 		(uuid "d4cb9d39-cbfa-4847-bd9f-3a4dc32a7ad2")
 	)
 	(label "FAN2_TACH"
-		(at 30.48 111.76 180)
+		(at 30.48 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23264,7 +23272,7 @@
 		(uuid "efbadeb2-668d-4124-89fe-f045b5fcf8a8")
 	)
 	(label "FAN1_TACH"
-		(at 30.48 96.52 180)
+		(at 30.48 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23748,6 +23756,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
+		(at 35.56 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0efa87bb-2686-4fe1-9963-2921ca3717f3")
+		(property "Reference" "J2"
+			(at 36.83 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fan 3, 4"
+			(at 36.83 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx06_2x03_P2.50mm_Vertical"
+			(at 35.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ad2cbf05-12b5-4c40-b3b0-e08af5f55497")
+		)
+		(pin "3"
+			(uuid "d74dc50b-6a9b-4894-b979-010c5c847c3a")
+		)
+		(pin "6"
+			(uuid "4a5eeac5-d498-4de6-a1d6-c5a1c88096d7")
+		)
+		(pin "1"
+			(uuid "d42b053a-1e0f-46fa-9f1a-b0966e830374")
+		)
+		(pin "4"
+			(uuid "82912035-3f04-4f27-9b32-fa5c365d7ddc")
+		)
+		(pin "5"
+			(uuid "1ae83520-8173-480f-b5fd-ca51cf758f53")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lhrs_connectors:CarLVPowerConnector")
 		(at 26.67 26.67 0)
 		(unit 1)
@@ -23943,8 +24043,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f157679-0b39-4aec-9f25-b1413dd25166")
-		(property "Reference" "H8"
-			(at 266.065 156.2099 0)
+		(property "Reference" "H4"
+			(at 265.43 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23955,7 +24055,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 266.065 158.7499 0)
+			(at 265.43 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24026,7 +24126,7 @@
 		(instances
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "H8")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -24127,7 +24227,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 124.46 0)
+		(at 195.58 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24138,7 +24238,7 @@
 		(fields_autoplaced yes)
 		(uuid "2397b4bb-5ce4-4c48-9966-3d0ebe456b41")
 		(property "Reference" "R44"
-			(at 194.31 123.1899 0)
+			(at 198.12 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24149,7 +24249,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 194.31 125.7299 0)
+			(at 198.12 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24160,7 +24260,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 189.992 124.46 90)
+			(at 193.802 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24171,7 +24271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 124.46 0)
+			(at 195.58 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24182,7 +24282,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 191.77 124.46 0)
+			(at 195.58 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24193,7 +24293,7 @@
 			)
 		)
 		(property "P/N" "CRCW06031K00FKEI"
-			(at 191.77 124.46 0)
+			(at 195.58 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24313,7 +24413,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 26.67 92.71 0)
+		(at 26.67 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24324,7 +24424,7 @@
 		(fields_autoplaced yes)
 		(uuid "263c581f-bd6e-45dd-afeb-ee825d8da835")
 		(property "Reference" "#PWR0107"
-			(at 26.67 96.52 0)
+			(at 26.67 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24335,7 +24435,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 26.67 87.63 0)
+			(at 26.67 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24345,7 +24445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 92.71 0)
+			(at 26.67 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24356,7 +24456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 92.71 0)
+			(at 26.67 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24367,7 +24467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 26.67 92.71 0)
+			(at 26.67 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24401,8 +24501,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "288e0457-d069-4f2f-a20b-0c95f156f068")
-		(property "Reference" "H6"
-			(at 239.395 156.2099 0)
+		(property "Reference" "H3"
+			(at 238.76 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24413,7 +24513,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 239.395 158.7499 0)
+			(at 238.76 158.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24484,93 +24584,7 @@
 		(instances
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 35.56 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ba08d15-94cd-4efe-aac4-431137e844e3")
-		(property "Reference" "J3"
-			(at 36.83 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fan3"
-			(at 36.83 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a794291d-2a2b-4f58-9203-9ced556e6af3")
-		)
-		(pin "2"
-			(uuid "0a15766a-f09a-490a-88e9-dc1aa2d9f89c")
-		)
-		(pin "4"
-			(uuid "6ca9d815-ec93-41b2-8dd1-288478414158")
-		)
-		(pin "1"
-			(uuid "a84b5c18-bc63-488a-b280-ac8e0ac48e9d")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "J3")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -24656,161 +24670,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "373332fc-acd3-4570-93b9-949f2147f2b8")
-		(property "Reference" "#PWR053"
-			(at 55.88 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9ca7adf-b534-4593-a4b1-c302b9aa8026")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 26.67 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39b6ba37-73de-4998-8941-2f645596d53b")
-		(property "Reference" "#PWR0109"
-			(at 26.67 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 26.67 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 26.67 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d82960e0-d10c-4ada-98f2-7ac9c708265d")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 83.82 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -24887,8 +24746,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 179.07 134.62 0)
+		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
+		(at 35.56 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24896,10 +24755,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "468ee7d0-1e4b-410a-bbea-11c24bc465af")
-		(property "Reference" "#PWR015"
-			(at 179.07 140.97 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "3d3009cb-28aa-4ca6-8bd9-f27d4aaf9d03")
+		(property "Reference" "J1"
+			(at 36.83 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24908,8 +24767,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 179.07 138.43 0)
+		(property "Value" "Fan 1, 2"
+			(at 36.83 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24918,8 +24777,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 134.62 0)
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx06_2x03_P2.50mm_Vertical"
+			(at 35.56 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24930,7 +24789,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 134.62 0)
+			(at 35.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 35.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "131e873a-8a04-4856-a138-a5862e0c525c")
+		)
+		(pin "3"
+			(uuid "568664d6-8bd3-4275-ad55-8080b32d04ef")
+		)
+		(pin "6"
+			(uuid "4cbf7cdb-0bb2-4c61-9c42-7f144bc79495")
+		)
+		(pin "1"
+			(uuid "c5f597a2-a0bf-4e20-acf0-cb17faf7be58")
+		)
+		(pin "4"
+			(uuid "63a545d4-016e-4625-84fc-76ee55dc4d15")
+		)
+		(pin "5"
+			(uuid "e5904fb7-a58e-469a-8295-73adeae6c888")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "468ee7d0-1e4b-410a-bbea-11c24bc465af")
+		(property "Reference" "#PWR015"
+			(at 184.15 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24941,7 +24892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 134.62 0)
+			(at 184.15 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24997,7 +24948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105309-xx02_1x02_P2.50mm_Vertical"
 			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -25123,94 +25074,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 35.56 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "491fa54d-7eb0-43f2-827a-96e15a2570c0")
-		(property "Reference" "J1"
-			(at 36.83 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fan1"
-			(at 36.83 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "b630ccbf-7293-4718-a9e4-8602816c9c03")
-		)
-		(pin "2"
-			(uuid "ab35cf8a-7acc-4386-b039-40d428a12600")
-		)
-		(pin "4"
-			(uuid "402cc5f1-3211-4db8-afc3-4a5b8d3879b9")
-		)
-		(pin "1"
-			(uuid "256e75e0-fca1-4520-97ef-71db8ab627b3")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 191.77 129.54 0)
+		(at 195.58 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25220,7 +25085,7 @@
 		(dnp no)
 		(uuid "5215eb05-ae2f-43e2-a401-16450ce36ecd")
 		(property "Reference" "#PWR085"
-			(at 191.77 135.89 0)
+			(at 195.58 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25231,7 +25096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 133.35 0)
+			(at 195.58 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25241,7 +25106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 129.54 0)
+			(at 195.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25252,7 +25117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 129.54 0)
+			(at 195.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25263,7 +25128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 129.54 0)
+			(at 195.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25628,7 +25493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Logos:Hallock_Image_Tiny"
+		(property "Footprint" "LHRS_Logos:Hallock_Image_Tiny"
 			(at 203.2 146.685 0)
 			(hide yes)
 			(show_name no)
@@ -26132,83 +25997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 55.88 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "80bee038-ae4b-4b9d-9616-d6580b4baa65")
-		(property "Reference" "#PWR055"
-			(at 55.88 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.88 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7a7685f-e26c-4c64-87b4-bae589bef3ed")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 26.67 123.19 0)
 		(unit 1)
@@ -26451,84 +26239,6 @@
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
 					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 26.67 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86fad07e-a837-46ee-8c65-78e1f81f6273")
-		(property "Reference" "#PWR0108"
-			(at 26.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 26.67 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 26.67 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81d43006-2751-4b9a-b15e-9b559f28780a")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -27031,7 +26741,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 95.25 0)
+		(at 55.88 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27041,7 +26751,7 @@
 		(dnp no)
 		(uuid "a449fe33-f91e-44e2-aed2-ad8203845e9a")
 		(property "Reference" "#PWR052"
-			(at 55.88 101.6 0)
+			(at 55.88 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27052,7 +26762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 99.06 0)
+			(at 55.88 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27062,7 +26772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 95.25 0)
+			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27073,7 +26783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 95.25 0)
+			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27084,7 +26794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 95.25 0)
+			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27101,92 +26811,6 @@
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 35.56 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a92e73e9-ca51-40d9-a720-817c36302652")
-		(property "Reference" "J2"
-			(at 36.83 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fan2"
-			(at 36.83 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "6249ea6f-bfdd-4650-91e1-6e875b99c10f")
-		)
-		(pin "2"
-			(uuid "ff022308-977a-4fe3-b54e-19f27849d804")
-		)
-		(pin "4"
-			(uuid "9fae105e-3abd-4231-a48a-6303c6853d98")
-		)
-		(pin "1"
-			(uuid "f1ea236f-00f7-47ed-9b51-f5ddf30e6127")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -27529,7 +27153,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 134.62 0)
+		(at 135.89 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27539,7 +27163,7 @@
 		(dnp no)
 		(uuid "b0bb63c7-f84d-4aaa-80e0-466c414a6b84")
 		(property "Reference" "#PWR016"
-			(at 140.97 140.97 0)
+			(at 135.89 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27550,7 +27174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 138.43 0)
+			(at 135.89 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27560,7 +27184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 134.62 0)
+			(at 135.89 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27571,7 +27195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 134.62 0)
+			(at 135.89 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27582,7 +27206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 134.62 0)
+			(at 135.89 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27914,6 +27538,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 187.96 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c11ef935-933a-43d1-9a96-ccc627af4c10")
+		(property "Reference" "R48"
+			(at 190.5 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0"
+			(at 190.5 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 186.182 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI"
+			(at 187.96 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0fbd8e2-a53f-4c9a-88b1-d4badb1876e4")
+		)
+		(pin "2"
+			(uuid "af50abdb-6024-47f6-a499-ff5066ac6a24")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 194.31 24.13 0)
 		(unit 1)
@@ -28025,7 +27742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Logos:LHRs_LOGO"
+		(property "Footprint" "LHRS_Logos:LHRs_LOGO"
 			(at 203.2 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -28101,8 +27818,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2d75202-e829-43e1-9aa5-f59a6702bc76")
-		(property "Reference" "H7"
-			(at 266.065 146.0499 0)
+		(property "Reference" "H2"
+			(at 265.43 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28113,7 +27830,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 266.065 148.5899 0)
+			(at 265.43 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28184,7 +27901,7 @@
 		(instances
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "H7")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -28610,92 +28327,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 35.56 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e62618b1-a9b5-41ff-9533-09f3f6777dc6")
-		(property "Reference" "J4"
-			(at 36.83 133.8784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fan4"
-			(at 36.83 136.4184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "801ffb66-9bd6-4648-b9f0-2b837559303c")
-		)
-		(pin "2"
-			(uuid "7781f9ec-6b25-4485-8d2f-3981f5894f65")
-		)
-		(pin "4"
-			(uuid "b2865d7e-4250-4d30-91dc-763246714684")
-		)
-		(pin "1"
-			(uuid "813f4a89-40ec-4ec9-906f-34e8eaf69343")
-		)
-		(instances
-			(project "PS-MPPTFanBoard"
-				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 140.97 71.12 0)
 		(unit 1)
@@ -28852,6 +28483,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 187.96 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5316030-f65d-48ca-85c6-20969b53b493")
+		(property "Reference" "#PWR088"
+			(at 187.96 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "510b3f49-74da-481e-be22-a9d84d3256d3")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 214.63 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -28939,8 +28647,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fde5bb6d-b58b-4fd6-b1e7-6bf0c87910a6")
-		(property "Reference" "H5"
-			(at 239.395 146.0499 0)
+		(property "Reference" "H1"
+			(at 238.76 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28951,7 +28659,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 239.395 148.5899 0)
+			(at 238.76 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29022,7 +28730,7 @@
 		(instances
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546"
-					(reference "H5")
+					(reference "H1")
 					(unit 1)
 				)
 			)

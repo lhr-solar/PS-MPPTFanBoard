@@ -921,6 +921,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -1176,6 +1315,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 19.05 88.9)
+		(end 105.41 123.19)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "008b8e61-1125-40f4-ac45-55bba35cb71f")
+	)
 	(text "Fan PWM pins configed\nas open drain"
 		(exclude_from_sim no)
 		(at 63.5 60.452 0)
@@ -1216,6 +1367,12 @@
 		(color 0 0 0 0)
 		(uuid "beee4c17-3a89-4360-af94-cf4aa3b70a8b")
 	)
+	(junction
+		(at 35.56 95.3775)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdfe1f08-e305-4133-9b63-e5fef0aee7d4")
+	)
 	(no_connect
 		(at 119.38 43.18)
 		(uuid "6f267124-8f49-4b39-9d18-c99c1eea45c5")
@@ -1246,7 +1403,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 95.25) (xy 90.17 97.79)
+			(xy 92.71 95.25) (xy 92.71 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +1413,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 109.22) (xy 52.07 105.41)
+			(xy 54.61 109.22) (xy 54.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 95.25) (xy 33.02 97.79)
+			(xy 35.56 95.25) (xy 35.56 95.3775)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 109.22) (xy 90.17 105.41)
+			(xy 92.71 109.22) (xy 92.71 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +1503,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 95.25) (xy 52.07 97.79)
+			(xy 54.61 95.25) (xy 54.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +1513,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 109.22) (xy 33.02 105.41)
+			(xy 35.56 109.22) (xy 35.56 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +1523,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 109.22) (xy 71.12 105.41)
+			(xy 73.66 109.22) (xy 73.66 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1436,6 +1593,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 95.3775) (xy 35.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2345a6-9665-4799-a275-7982334861d3")
+	)
+	(wire
+		(pts
 			(xy 63.5 38.1) (xy 64.77 38.1)
 		)
 		(stroke
@@ -1446,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 95.25) (xy 71.12 97.79)
+			(xy 73.66 95.25) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1493,16 +1660,6 @@
 			(type default)
 		)
 		(uuid "9d9cef0b-bc6b-4932-8e35-2b2cbfc52b2e")
-	)
-	(polyline
-		(pts
-			(xy 102.87 78.74) (xy 102.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2dfd23e-f145-4610-9487-92152779a40a")
 	)
 	(wire
 		(pts
@@ -8786,36 +8943,6 @@
 		)
 		(uuid "06f6ead0-6b31-4a0d-838e-4ffeade1fdd4")
 	)
-	(label "12V_Protected"
-		(at 33.02 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c884fb8-fb02-4f16-96f9-71ce3b4c9c3e")
-	)
-	(label "12V_Protected"
-		(at 52.07 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e0a527d-639a-409b-99fa-f945656dc10d")
-	)
-	(label "12V_Protected"
-		(at 71.12 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "675510b0-63ec-46ee-9ff4-3c1ec9cb507a")
-	)
 	(label "CLK"
 		(at 172.72 39.37 180)
 		(effects
@@ -8825,16 +8952,6 @@
 			(justify right bottom)
 		)
 		(uuid "8f7c3646-1e58-4ac1-b9d8-771f0ed01abf")
-	)
-	(label "12V_Protected"
-		(at 90.17 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a815b365-9ac2-4e50-bbe4-c83e2f596306")
 	)
 	(label "CLK"
 		(at 120.65 53.34 0)
@@ -9023,7 +9140,7 @@
 	)
 	(symbol
 		(lib_id "Diode:C3D25170H")
-		(at 33.02 101.6 270)
+		(at 35.56 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9033,7 +9150,7 @@
 		(dnp no)
 		(uuid "09fdf904-cdcf-4cbc-8ff9-1ecc8f67d03c")
 		(property "Reference" "D16"
-			(at 35.56 99.06 90)
+			(at 38.1 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9044,7 +9161,7 @@
 			)
 		)
 		(property "Value" "VSSAF522-M3/H"
-			(at 24.384 105.664 90)
+			(at 26.924 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9054,8 +9171,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Passive:SODFL5026X125N"
-			(at 28.575 101.6 0)
+		(property "Footprint" "LHRS_Passives:SODFL5026X125N"
+			(at 31.115 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9066,7 +9183,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/103/C3D25170H.pdf"
-			(at 33.02 101.6 0)
+			(at 35.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9077,7 +9194,7 @@
 			)
 		)
 		(property "Description" "1700V, 25A, SiC Schottky Diode, TO-247"
-			(at 33.02 101.6 0)
+			(at 35.56 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9263,6 +9380,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 54.61 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a812b81-40f8-44f2-8278-d7cbb61e2957")
+		(property "Reference" "#PWR0109"
+			(at 54.61 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 54.61 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 54.61 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70b421cf-760a-45af-a228-bbcd328b6bd7")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546/bb3bbaa0-9b10-4a43-82e1-47b62af93f24"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 254 58.42 180)
 		(unit 1)
@@ -9428,7 +9623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 109.22 0)
+		(at 35.56 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9439,7 +9634,7 @@
 		(fields_autoplaced yes)
 		(uuid "22f63f12-f5fc-42b7-a729-321c7af5b85d")
 		(property "Reference" "#PWR086"
-			(at 33.02 115.57 0)
+			(at 35.56 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9450,7 +9645,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 114.3 0)
+			(at 35.56 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9460,7 +9655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 109.22 0)
+			(at 35.56 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9471,7 +9666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 109.22 0)
+			(at 35.56 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9482,7 +9677,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 109.22 0)
+			(at 35.56 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9506,7 +9701,7 @@
 	)
 	(symbol
 		(lib_id "Diode:C3D25170H")
-		(at 52.07 101.6 270)
+		(at 54.61 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9516,7 +9711,7 @@
 		(dnp no)
 		(uuid "2831329d-1f74-4d59-b968-6f3cd20a9620")
 		(property "Reference" "D20"
-			(at 54.61 99.06 90)
+			(at 57.15 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9527,7 +9722,7 @@
 			)
 		)
 		(property "Value" "VSSAF522-M3/H"
-			(at 43.434 105.664 90)
+			(at 45.974 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9537,8 +9732,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Passive:SODFL5026X125N"
-			(at 47.625 101.6 0)
+		(property "Footprint" "LHRS_Passives:SODFL5026X125N"
+			(at 50.165 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9549,7 +9744,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/103/C3D25170H.pdf"
-			(at 52.07 101.6 0)
+			(at 54.61 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9560,7 +9755,7 @@
 			)
 		)
 		(property "Description" "1700V, 25A, SiC Schottky Diode, TO-247"
-			(at 52.07 101.6 0)
+			(at 54.61 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9662,6 +9857,84 @@
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546/bb3bbaa0-9b10-4a43-82e1-47b62af93f24"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 73.66 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48294a9a-e282-4d4c-a0c6-6003bda81818")
+		(property "Reference" "#PWR0111"
+			(at 73.66 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 73.66 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "753d08cd-b706-463d-a19d-67d1dd78e3ac")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546/bb3bbaa0-9b10-4a43-82e1-47b62af93f24"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -9828,7 +10101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 109.22 0)
+		(at 92.71 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9839,7 +10112,7 @@
 		(fields_autoplaced yes)
 		(uuid "73950ff7-1ba5-4fd4-81e1-2e8a9a73b1ab")
 		(property "Reference" "#PWR094"
-			(at 90.17 115.57 0)
+			(at 92.71 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9850,7 +10123,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 114.3 0)
+			(at 92.71 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9860,7 +10133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 109.22 0)
+			(at 92.71 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9871,7 +10144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 109.22 0)
+			(at 92.71 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,7 +10155,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 109.22 0)
+			(at 92.71 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10055,6 +10328,84 @@
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546/bb3bbaa0-9b10-4a43-82e1-47b62af93f24"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 35.56 95.3775 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dff3421-706e-45b9-a19f-a84d5ea809d4")
+		(property "Reference" "#PWR0108"
+			(at 35.56 99.1875 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 35.56 90.2975 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 95.3775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 95.3775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 35.56 95.3775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16539343-2f7d-47b6-a9eb-761615ef2a8d")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546/bb3bbaa0-9b10-4a43-82e1-47b62af93f24"
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -10301,6 +10652,84 @@
 			(project "PS-MPPTFanBoard"
 				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546/bb3bbaa0-9b10-4a43-82e1-47b62af93f24"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 92.71 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a44310c8-7c2f-44b8-a116-7984322adc7c")
+		(property "Reference" "#PWR0112"
+			(at 92.71 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 92.71 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 92.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48f648a9-4fd2-4670-81e7-84cd1005b092")
+		)
+		(instances
+			(project "PS-MPPTFanBoard"
+				(path "/645a5315-cb23-4e9f-a6f4-b2dce0283546/bb3bbaa0-9b10-4a43-82e1-47b62af93f24"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -10942,7 +11371,7 @@
 	)
 	(symbol
 		(lib_id "Diode:C3D25170H")
-		(at 71.12 101.6 270)
+		(at 73.66 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10952,7 +11381,7 @@
 		(dnp no)
 		(uuid "d3f4b1d2-fb70-438b-972a-c3e1d4694156")
 		(property "Reference" "D21"
-			(at 73.66 99.06 90)
+			(at 76.2 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10963,7 +11392,7 @@
 			)
 		)
 		(property "Value" "VSSAF522-M3/H"
-			(at 62.484 105.664 90)
+			(at 65.024 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10973,8 +11402,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Passive:SODFL5026X125N"
-			(at 66.675 101.6 0)
+		(property "Footprint" "LHRS_Passives:SODFL5026X125N"
+			(at 69.215 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10985,7 +11414,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/103/C3D25170H.pdf"
-			(at 71.12 101.6 0)
+			(at 73.66 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10996,7 +11425,7 @@
 			)
 		)
 		(property "Description" "1700V, 25A, SiC Schottky Diode, TO-247"
-			(at 71.12 101.6 0)
+			(at 73.66 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11023,7 +11452,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 109.22 0)
+		(at 54.61 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11034,7 +11463,7 @@
 		(fields_autoplaced yes)
 		(uuid "d877f5a3-c769-43db-9e93-0301bb60bc35")
 		(property "Reference" "#PWR089"
-			(at 52.07 115.57 0)
+			(at 54.61 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11045,7 +11474,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 114.3 0)
+			(at 54.61 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11055,7 +11484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 109.22 0)
+			(at 54.61 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11066,7 +11495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 109.22 0)
+			(at 54.61 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11077,7 +11506,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 109.22 0)
+			(at 54.61 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11101,7 +11530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 109.22 0)
+		(at 73.66 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11112,7 +11541,7 @@
 		(fields_autoplaced yes)
 		(uuid "dabb798f-fd52-407f-85dd-91bffdf28c3b")
 		(property "Reference" "#PWR092"
-			(at 71.12 115.57 0)
+			(at 73.66 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11123,7 +11552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 114.3 0)
+			(at 73.66 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11133,7 +11562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 109.22 0)
+			(at 73.66 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11144,7 +11573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 109.22 0)
+			(at 73.66 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11155,7 +11584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 109.22 0)
+			(at 73.66 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11365,7 +11794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PumpLib:QFN16_4x4MC_MCH"
+		(property "Footprint" "fanboard:QFN16_4x4MC_MCH"
 			(at 68.58 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11645,7 +12074,7 @@
 	)
 	(symbol
 		(lib_id "Diode:C3D25170H")
-		(at 90.17 101.6 270)
+		(at 92.71 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11655,7 +12084,7 @@
 		(dnp no)
 		(uuid "f97eea46-7291-48d0-bb9c-3cb98ac8478c")
 		(property "Reference" "D22"
-			(at 92.71 99.06 90)
+			(at 95.25 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11666,7 +12095,7 @@
 			)
 		)
 		(property "Value" "VSSAF522-M3/H"
-			(at 81.534 105.664 90)
+			(at 84.074 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11676,8 +12105,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UTSVT_Passive:SODFL5026X125N"
-			(at 85.725 101.6 0)
+		(property "Footprint" "LHRS_Passives:SODFL5026X125N"
+			(at 88.265 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11688,7 +12117,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.wolfspeed.com/media/downloads/103/C3D25170H.pdf"
-			(at 90.17 101.6 0)
+			(at 92.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11699,7 +12128,7 @@
 			)
 		)
 		(property "Description" "1700V, 25A, SiC Schottky Diode, TO-247"
-			(at 90.17 101.6 0)
+			(at 92.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
