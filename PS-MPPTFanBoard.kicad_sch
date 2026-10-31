@@ -25203,6 +25203,10 @@
 		(uuid "08a8fdf4-67fb-4968-94a3-f9d0c8de82de")
 	)
 	(no_connect
+		(at 189.23 59.69)
+		(uuid "0c0d2262-2731-461e-9728-ee5c8041b3d7")
+	)
+	(no_connect
 		(at 262.89 151.13)
 		(uuid "11fddc80-ddb6-4968-a1ee-7e6b5aaa2e66")
 	)
@@ -25237,6 +25241,10 @@
 	(no_connect
 		(at 149.86 44.45)
 		(uuid "4f696c43-3e7c-4e2b-89e8-01309ee6b62a")
+	)
+	(no_connect
+		(at 189.23 62.23)
+		(uuid "53814e42-3e52-4e0a-83ec-31e0b8f2d12d")
 	)
 	(no_connect
 		(at 189.23 71.12)
@@ -25866,16 +25874,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 59.69) (xy 193.04 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79581426-7489-46c4-b4ac-a9ba79b3cc5f")
-	)
-	(wire
-		(pts
 			(xy 88.9 50.8) (xy 83.82 50.8)
 		)
 		(stroke
@@ -26323,16 +26321,6 @@
 			(type default)
 		)
 		(uuid "d77119dc-2c55-460b-9233-a4f9f0571f28")
-	)
-	(wire
-		(pts
-			(xy 189.23 62.23) (xy 193.04 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97de0a5-2b93-44de-92fd-96db718f183a")
 	)
 	(wire
 		(pts
@@ -27829,16 +27817,6 @@
 		)
 		(uuid "53b36f06-6d6c-4126-a51e-c51e8c5a96d6")
 	)
-	(label "DEBUG2"
-		(at 193.04 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55f7c80d-a61a-458a-8360-a240f299a360")
-	)
 	(label "FAN1_PWM"
 		(at 111.76 92.71 0)
 		(effects
@@ -27918,16 +27896,6 @@
 			(justify right bottom)
 		)
 		(uuid "785676d2-0107-4d12-b2c6-934ce0b2fb11")
-	)
-	(label "DEBUG3"
-		(at 193.04 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7989b002-4164-45eb-bfaf-1515b0b3ba19")
 	)
 	(label "~{SMBALERT}"
 		(at 73.66 97.79 180)
@@ -31015,7 +30983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx08_2x04_P2.50mm_Vertical"
 			(at 33.02 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -32947,7 +32915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx08_2x04_P2.50mm_Vertical"
 			(at 33.02 101.6 0)
 			(hide yes)
 			(show_name no)

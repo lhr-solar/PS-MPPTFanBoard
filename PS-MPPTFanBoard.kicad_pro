@@ -542,7 +542,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PS-MPPTFanBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
