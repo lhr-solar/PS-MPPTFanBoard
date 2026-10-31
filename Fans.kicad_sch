@@ -9204,6 +9204,17 @@
 				)
 			)
 		)
+		(property "P/N" "VSSAF522-M3/H"
+			(at 35.56 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "482f5fa3-050e-4afe-add6-f6e1233d0ffe")
 		)
@@ -9354,6 +9365,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06035K10FKEC"
 			(at 228.6 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9524,6 +9546,17 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW06035K10FKEC"
+			(at 254 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5e74b031-7e70-4945-87c8-13bed16391ec")
 		)
@@ -9596,6 +9629,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 173.99 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF3302TDE"
 			(at 173.99 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9765,6 +9809,17 @@
 				)
 			)
 		)
+		(property "P/N" "VSSAF522-M3/H"
+			(at 54.61 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca2357d3-3d22-4532-a0cc-17c7b0084e12")
 		)
@@ -9837,6 +9892,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 173.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF3302TDE"
 			(at 173.99 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9997,6 +10063,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 44.45 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06031K00FKEI"
 			(at 44.45 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -10957,6 +11034,17 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW06035K10FKEC"
+			(at 255.27 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4feb0621-f2d6-4f06-9084-b2232bed4eb6")
 		)
@@ -11107,6 +11195,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06035K10FKEC"
 			(at 228.6 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11354,6 +11453,17 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW06031K00FKEI"
+			(at 64.77 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "80ae1eef-325c-4f7c-8f4d-893433c9ce16")
 		)
@@ -11426,6 +11536,17 @@
 		)
 		(property "Description" "1700V, 25A, SiC Schottky Diode, TO-247"
 			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "VSSAF522-M3/H"
+			(at 73.66 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11967,6 +12088,17 @@
 				)
 			)
 		)
+		(property "P/N" "CRCW06031K00FKEI"
+			(at 134.62 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b1fbee9-7a51-4f4d-979b-a5bd0ceaabca")
 		)
@@ -12129,6 +12261,17 @@
 		)
 		(property "Description" "1700V, 25A, SiC Schottky Diode, TO-247"
 			(at 92.71 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "VSSAF522-M3/H"
+			(at 92.71 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
